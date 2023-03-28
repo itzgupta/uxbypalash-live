@@ -16,7 +16,7 @@ module.exports = {
       // },
 
       animation: {
-        'colorchange': 'colchange 4s infinite' ,
+        'colorchange': 'colchange 5s infinite' ,
       }
     },
   },
