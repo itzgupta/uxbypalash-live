@@ -23,20 +23,20 @@ const Navbar = () => {
 
             {/* Mobile Button */}
 
-            <div className='block sm:hidden z-10'>
+            <div className='block sm:hidden text-[#828282] z-10'>
                 <AiOutlineMenu size={20} />
             </div>
 
             {/* Mobile-slide Menu */}
             <div className='sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'>
                 <ul>
-                    <li>
+                    <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
                         <Link href='/'>work</Link>
-                    </li>
-                    <li>
+                    </li >
+                    <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
                         <Link href='/'>contact</Link>
                     </li>
-                    <li>
+                    <li className='p-4 text-4xl text-[#FF477E] hover:text-[#D71F56] text-medium'>
                         <Link href='/'><span>dribbble</span></Link>
                     </li>
                 </ul>
