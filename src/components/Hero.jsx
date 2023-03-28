@@ -10,7 +10,7 @@ const Hero = () => {
             </p>
             <h1 className='font-[700] text-[34px] sm:text-[64px] md:text-[82px] lg:text-[94px] xl:text-[128px]'>
                 I'm Palash <br />
-                <span className='animate-colorchange delay-500 duration-300 ease-in-out'>Product Designer.</span>
+                <span className='animate-colorchange delay-500 duration-300 ease-in-out anim'>Product Designer.</span>
             </h1>
             <h3 className='py-5 mt-10 text-[12px] text-[#202020] font-medium md:text-[18px] xl:text-[20px]'>
                 Who crafts <span className='font-bold text-[#6E44FF]'>digital user experiences with creativity and critical thinking.</span> <br />

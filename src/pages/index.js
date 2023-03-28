@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-page-custom-font */
+import Cases from '@/components/Cases'
 import Hero from '@/components/Hero'
 import Head from 'next/head'
 
@@ -15,6 +16,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
       <Hero />
+      <Cases />
     </>
   )
 }
