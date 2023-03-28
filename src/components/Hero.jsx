@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div id='work' className='flex items-center justify-center h-screen mt-10 border-[1px] border-b-[#D4D4D4]'>
+    <div id='work' className='flex items-center justify-center h-screen mt-10 border-b-[1px] border-[#D4D4D4]'>
         <div className='px-10 max-w-[1240px] sm:px-5 '>
             <p className='flex py-10 text-[#D6D6D6] text-[10px] font-medium items-center justify-center sm:text-[16px] lg:text-[20px]'>
                 <span>"</span>Fortune favors the bold<span>"</span>
