@@ -40,7 +40,7 @@ const Otherskill = () => {
           </div>
         </div>
 
-        <div className='flex flex-col'>
+        <div className='flex flex-col py-2'>
           <h4 className='text-[24px] sm:text-[32px] font-bold mt-2'>Other Skills</h4>
           <img className='py-4' src="./assets/Skills.svg" alt="" />
         </div>
