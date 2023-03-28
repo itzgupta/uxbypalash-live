@@ -4,11 +4,11 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='flex items-center justify-center h-screen mb-12 border-[1px] border-b-[#D4D4D4]'>
-        <div className=''>
-            <p className='flex py-10 text-[#D6D6D6] text-[20px] font-medium items-center justify-center'>
+        <div className='px-20 max-w-[1240px] px-auto sm:px-10 '>
+            <p className='flex py-10 text-[#D6D6D6] text-[14px] font-medium items-center justify-center sm:text-[16px] lg:text-[20px]'>
                 <span>"</span>Fortune favors the bold<span>"</span>
             </p>
-            <h1 className='font-[700] text-[128px]'>
+            <h1 className='font-[700] text-[34px] sm:text-[64px] md:text-[82px] lg:text-[94px] xl:text-[128px]'>
                 I'm Palash <br />
                 <span className='animate-colorchange delay-500 duration-300 ease-in-out'>Product Designer.</span>
             </h1>
