@@ -13,6 +13,9 @@ const Footer = () => {
             <button className='text-white text-[20px] font-medium rounded border-2 bg-black py-[20px] px-[40px] my-8 hover:text-black hover:bg-white hover:border-black'>
                 uxbypalash@gmail.com
             </button>
+            <p className='text-[16px] font-medium py-2'>
+                &#169; 2023 - Designed by Palash Gupta.
+            </p>
         </div>
     </div>
   )
