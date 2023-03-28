@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import Cases from '@/components/Cases'
 import Hero from '@/components/Hero'
+import Otherskill from '@/components/Otherskill'
 import Head from 'next/head'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Cases />
+      <Otherskill />
     </>
   )
 }
