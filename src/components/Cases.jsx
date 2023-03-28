@@ -16,7 +16,7 @@ const Cases = () => {
 
         <div className='mt-4'>
             <div className='flex flex-nowrap gap-6'>
-                <div className='flex-col'p-4>
+                <div className='flex-col hover:animate-pulse'p-4>
                     <div className='py-1'>
                         <Link href='/'><img src="./assets/Debicover.svg" alt="" /></Link>
                     </div>
@@ -29,7 +29,7 @@ const Cases = () => {
                     </p>
                 </div>
 
-                <div className='flex-col'p-4>
+                <div className='flex-col hover:animate-pulse'p-4>
                     <div className='py-1'>
                         <Link href='/'><img src="./assets/Upnetcover.svg" alt="" /></Link>
                     </div>
@@ -38,9 +38,9 @@ const Cases = () => {
                 </div>
 
             </div>
-            
+
             <div className='flex flex-nowrap gap-6 mt-4'>
-                <div className='flex-col'p-4>
+                <div className='flex-col hover:animate-pulse'p-4>
                     <div className='py-1'>
                         <Link href='/'><img src="./assets/Docsaabcover.svg" alt="" /></Link>
                     </div>
