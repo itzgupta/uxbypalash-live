@@ -17,7 +17,7 @@ const Navbar = () => {
             </Link>
             <ul className='hidden sm:flex font-[500]'>
                 <li className='p-4 text-[20px] text-[#828282] hover:text-[#6E44FF] text-medium'>
-                    <Link href='/#work'>work</Link>
+                    <Link href='/'>work</Link>
                 </li>
                 <li className='p-4 text-[20px] text-[#828282] hover:text-[#6E44FF] text-medium'>
                     <Link href='/#contact'>contact</Link>
@@ -29,14 +29,14 @@ const Navbar = () => {
 
             {/* Mobile Button */}
 
-            <div onClick={handleNav} className='block sm:hidden text-[#828282] z-10'>
+            <div onClick={handleNav} className='bg-white block sm:hidden text-[#828282] z-10'>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
 
             {/* Mobile-slide Menu */}
             <div className={
                 nav 
-                    ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'
+                    ? 'bg-white sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'
                 }
             >
                 <ul className='font-[500]'>

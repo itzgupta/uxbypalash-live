@@ -4,11 +4,6 @@ const Otherskill = () => {
   return (
     <div className='bg-[#F8F7FF] border-b-[1px] border-[#D4D4D4]'>
       <div className='p-8 max-w-[1240px] m-auto'>
-        <div className='flex flex-col'>
-          <h4 className='text-[32px] font-bold'>Other Skills</h4>
-          <img className='py-4' src="./assets/Skills.svg" alt="" />
-        </div>
-
         <div>
           <h4 className='text-[32px] font-bold py-4'>Experience in</h4>
 
@@ -43,6 +38,11 @@ const Otherskill = () => {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className='flex flex-col'>
+          <h4 className='text-[32px] font-bold mt-2'>Other Skills</h4>
+          <img className='py-4' src="./assets/Skills.svg" alt="" />
         </div>
       </div>
     </div>
