@@ -11,13 +11,13 @@ const Navbar = () => {
             </Link>
             <ul className='hidden sm:flex'>
                 <li className='p-4 text-[20px]'>
-                    <Link href='/'>Work</Link>
+                    <Link href='/'>work</Link>
                 </li>
                 <li className='p-4 text-[20px]'>
-                    <Link href='/'>Contact</Link>
+                    <Link href='/'>contact</Link>
                 </li>
                 <li className='p-4 text-[20px]'>
-                    <Link href='/'><span>Dribbble</span></Link>
+                    <Link href='/'><span>dribbble</span></Link>
                 </li>
             </ul>
 
@@ -28,16 +28,16 @@ const Navbar = () => {
             </div>
 
             {/* Mobile-slide Menu */}
-            <div>
+            <div className='sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'>
                 <ul>
                     <li>
-                        <Link href='/'>Work</Link>
+                        <Link href='/'>work</Link>
                     </li>
                     <li>
-                        <Link href='/'>Contact</Link>
+                        <Link href='/'>contact</Link>
                     </li>
                     <li>
-                        <Link href='/'><span>Dribbble</span></Link>
+                        <Link href='/'><span>dribbble</span></Link>
                     </li>
                 </ul>
             </div>
