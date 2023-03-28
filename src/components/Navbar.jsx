@@ -10,12 +10,12 @@ const Navbar = () => {
     };
 
   return (
-    <div className='fixed left-0 top-0 h-94px z-10 w-full ease-in duration-300'>
-        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-black'>
+    <div className='fixed left-0 top-0 z-10 w-full ease-in duration-300'>
+        <div className='max-w-[1240px] m-auto flex h-[94px] justify-between items-center p-4 text-black'>
             <Link href='/'>
-                <h4 className='font-medium text-[24px]'>uxbypalash</h4>
+                <h4 className='font-[500] text-[24px]'>uxbypalash</h4>
             </Link>
-            <ul className='hidden sm:flex'>
+            <ul className='hidden sm:flex font-[500]'>
                 <li className='p-4 text-[20px] text-[#828282] hover:text-[#6E44FF] text-medium'>
                     <Link href='/'>work</Link>
                 </li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                     ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'
                 }
             >
-                <ul>
+                <ul className='font-[500]'>
                     <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
                         <Link href='/'>work</Link>
                     </li >
