@@ -16,7 +16,7 @@ const Cases = () => {
             </div>
 
             <div className='flex flex-col mt-4'>
-                <div className='sm:flex flex-nowrap gap-4'>
+                <div className='md:flex flex-nowrap gap-4'>
                     <div className='flex-col hover:animate-pulse'p-4>
                         <div className='py-1'>
                             <Link href='/'><img src="./assets/Debicover.svg" alt="" /></Link>
