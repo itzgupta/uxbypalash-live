@@ -17,13 +17,13 @@ const Navbar = () => {
             </Link>
             <ul className='hidden sm:flex font-[500]'>
                 <li className='p-4 text-[20px] text-[#828282] hover:text-[#6E44FF] text-medium'>
-                    <Link href='/'>work</Link>
+                    <Link href='/#work'>work</Link>
                 </li>
                 <li className='p-4 text-[20px] text-[#828282] hover:text-[#6E44FF] text-medium'>
-                    <Link href='/'>contact</Link>
+                    <Link href='/#contact'>contact</Link>
                 </li>
                 <li className='p-4 text-[20px] text-[#FF477E] hover:text-[#D71F56] text-medium'>
-                    <Link href='/'><span>dribbble</span></Link>
+                    <Link href='https://dribbble.com/uxbypalash'><span>dribbble</span></Link>
                 </li>
             </ul>
 
@@ -41,13 +41,13 @@ const Navbar = () => {
             >
                 <ul className='font-[500]'>
                     <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
-                        <Link href='/'>work</Link>
+                        <Link href='/#work'>work</Link>
                     </li >
                     <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
-                        <Link href='/'>contact</Link>
+                        <Link href='/#contact'>contact</Link>
                     </li>
                     <li className='p-4 text-4xl text-[#FF477E] hover:text-[#D71F56] text-medium'>
-                        <Link href='/'><span>dribbble</span></Link>
+                        <Link href='https://dribbble.com/uxbypalash'><span>dribbble</span></Link>
                     </li>
                 </ul>
             </div>
