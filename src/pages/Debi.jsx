@@ -5,7 +5,7 @@ import React from 'react'
 const Debi = () => {
   return (
     <div>
-      <div className='border-b-[1px] border-[#D4D4D4]'>
+      <div className='bg-white border-b-[1px] border-[#D4D4D4]'>
         {/* ---- BANNER ---- */}
             
         <div className='flex flex-col mt-10 items-center justify-center h-[450px] bg-[#EDF2FB] px-5'>
@@ -15,7 +15,7 @@ const Debi = () => {
         
         {/* ---- Overview ---- */}
 
-        <div className='p-8 max-w-[1240px] m-auto'>
+        <div className='px-8 py-4 max-w-[1240px] m-auto'>
           
           <div className='py-2'>
             <h5 className='text-[20px] pt-1'><span className='text-[#0116E9] font-bold'>Role :</span> UI/UX Designer</h5>
@@ -54,7 +54,7 @@ const Debi = () => {
             </p>
         </div>
         
-        <div className='p-8 max-w-[1240px] m-auto'>
+        <div className='px-8 py-4 max-w-[1240px] m-auto'>
 
           <div className='flex flex-col py-6'>
             <h5 className='text-[20px] sm:text-[32px] font-bold'>Survey</h5>
@@ -97,7 +97,7 @@ const Debi = () => {
             </p>
         </div>
         
-        <div className='p-8 max-w-[1240px] m-auto'>
+        <div className='px-8 py-4 max-w-[1240px] m-auto'>
           
           <div>
             <h5 className='text-[20px] sm:text-[32px] font-bold'>Pain Points</h5>
@@ -119,7 +119,7 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               Utilizing the data obtained from the survey and interview, I developed a persona that embodies the characteristics of the intended audience.
             </p>
-            <img className='py-4' src="/" alt="" />
+            <img className='py-4 h-[540px]' src="./assets/Persona.svg" alt="" />
           </div>
 
           <div className='flex flex-col py-2'>
@@ -129,19 +129,19 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               Upon completion of persona creation, I constructed a comprehensive user empathy map to elucidate and convey details about the user, resulting in a deeper comprehension of the user persona.
             </p>
-            <img className='py-4' src="/" alt="" />
+            <img className='pt-2 sm:h-[520px]' src="./assets/Empathy.svg" alt="" />
           </div>
         </div>
 
         {/* ---- PHASE 3 IDEATE ---- */}
         
         <div className='flex flex-col mt-10 items-center justify-center h-[240px] bg-[#EDF2FB] px-5'>
-            <p className='text-[24px] text-[#072AC8] py-4 text-center font-bold sm:text-[32px]'>
+            <p className='text-[24px] text-[#072AC8] pb-4 text-center font-bold sm:text-[32px]'>
               PHASE 3 : IDEATE
             </p>
         </div>
         
-        <div className='p-8 max-w-[1240px] m-auto'>
+        <div className='px-8 py-4 max-w-[1240px] m-auto'>
 
           <div className='flex flex-col py-6'>
             <h5 className='text-[20px] sm:text-[32px] font-bold'>
@@ -172,7 +172,7 @@ const Debi = () => {
             </p>
         </div>
         
-        <div className='p-8 max-w-[1240px] m-auto'>
+        <div className='px-8 py-4 max-w-[1240px] m-auto'>
 
           <div className='flex flex-col py-6'>
             <h5 className='text-[20px] sm:text-[32px] font-bold'>
@@ -200,7 +200,7 @@ const Debi = () => {
             </p>
         </div>
         
-        <div className='p-8 max-w-[1240px] m-auto'>
+        <div className='px-8 py-4 max-w-[1240px] m-auto'>
 
           <div className='flex flex-col py-6'>
             <h5 className='text-[20px] sm:text-[32px] font-bold'>
