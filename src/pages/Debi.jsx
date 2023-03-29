@@ -40,10 +40,17 @@ const Debi = () => {
 
                 <div className='flex flex-col py-2'>
                   <h4 className='text-[20px] sm:text-[32px] font-bold mt-2'>Other Skills</h4>
-                  <img className='py-4' src="./assets/Skills.svg" alt="" />
+                  <img className='py-4' src="./assets/Process.svg" alt="" />
                 </div>
               </div>
+
+              {/* ---- PHASE 1 DISCOVERY ---- */}
               
+              <div>
+                <div>
+                  
+                </div>
+              </div>
             </div>
         </div>
     </div>
