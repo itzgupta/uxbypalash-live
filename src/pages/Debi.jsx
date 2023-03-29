@@ -191,6 +191,35 @@ const Debi = () => {
           </div>
         </div>
 
+        {/* ---- PHASE 5 TESTING ---- */}
+        
+        <div className='flex flex-col mt-10 items-center justify-center h-[240px] bg-[#EDF2FB] px-5'>
+            <p className='text-[24px] text-[#072AC8] py-4 text-center font-bold sm:text-[32px]'>
+              PHASE 5 : TESTING
+            </p>
+        </div>
+        
+        <div className='p-8 max-w-[1240px] m-auto'>
+
+          <div className='flex flex-col py-6'>
+            <h5 className='text-[20px] sm:text-[32px] font-bold'>
+              Prototype Analysis
+            </h5>
+            <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
+              I'm currently conducting user interviews and usability tests, and will provide updates once all interviews are completed and actionable insights are gathered from the data.
+            </p>
+          </div>
+
+          <div className='flex flex-col py-2'>
+            <h4 className='text-[20px] sm:text-[32px] font-bold mt-2'>
+              Contemplations
+            </h4>
+            <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
+              I loved working on Debi, a project that originated from my personal pain point, but with the freedom to choose my own subject and scope, the project became too vast and feature-rich. I learned that feedback is crucial for iterating design, and conducting usability studies has helped me pinpoint areas for improvement and iteration.
+            </p>
+          </div>
+        </div>
+
 
       </div>
     </div>
