@@ -59,8 +59,9 @@ const Debi = () => {
           <div className='flex flex-col py-6'>
             <h5 className='text-[20px] sm:text-[32px] font-bold'>Survey</h5>
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
-            I have collected 10 surveys from those who transaction on a daily basis and understanding all the transaction needs they have.
+              I have collected 10 surveys from those who transaction on a daily basis and understanding all the transaction needs they have.
             </p>
+            <img className='py-8 h-[240px] sm:h-[540px]' src="./assets/Survey.svg" alt="" />
           </div>
           
           <div>
@@ -75,7 +76,7 @@ const Debi = () => {
               <li className='py-2'>How do you feel about the security features of other payment app?</li>
               <li className='py-2'>What improvements would you like to see in future fintech apps?</li>
             </ul>
-            <img className='py-4' src="/" alt="" />
+            <img className='py-4 m-auto' src="./assets/Interview.svg" alt="" />
           </div>
 
           <div className='flex flex-col py-2'>
@@ -85,7 +86,7 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               To commence my research, I start by examining several competitors or analogous platforms, evaluating their user interface, user experience, user flow, and essential functionalities.
             </p>
-            <img className='py-4' src="/" alt="" />
+            <img className='py-4 h-[240px] sm:h-[440px]' src="./assets/Feature.svg" alt="" />
           </div>
         </div>
 
@@ -180,7 +181,7 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               For the visual design of the Debi app, I chose blue as the primary color to evoke feelings of stability and reliability while also representing the secure and orderly of the product.
             </p>
-            <img className='py-4 sm:h-[540px]' src="./assets/Visual.svg" alt="" />
+            <img className='py-4 sm:h-[520px]' src="./assets/Visual.svg" alt="" />
           </div>
 
           <div className='flex flex-col py-2'>
@@ -219,8 +220,6 @@ const Debi = () => {
             </p>
           </div>
         </div>
-
-
       </div>
     </div>
   )
