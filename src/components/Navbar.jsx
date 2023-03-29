@@ -18,7 +18,7 @@ const Navbar = () => {
         }
     };
 
-  window.addEventListener('scroll', changecolor)
+    window.addEventListener('scroll', changecolor)
 
   return (
     <div className={color ? 'navbar-scroll-bg bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300' : 'bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300'}>
