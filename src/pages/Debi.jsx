@@ -111,7 +111,6 @@ const Debi = () => {
               <li className='py-2'>Payment processing errors or delays.</li>
               <li className='py-2'>Limited payment options or lack of support for certain currencies.</li>
             </ul>
-            <img className='py-4' src="/" alt="" />
           </div>
 
           <div className='flex flex-col py-6'>
@@ -160,7 +159,7 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               Subsequently, I converted my preliminary sketches into digital wireframes, followed by the creation of Lo-Fi prototypes using XD. I then conducted usability testing with my users.
             </p>
-            <img className='py-4 h-[340px] sm:-screen' src="./assets/Wireframe.svg" alt="" />
+            <img className='py-4 h-[340px] sm:h-[540px]' src="./assets/Wireframe.svg" alt="" />
           </div>
         </div>
 
@@ -179,7 +178,7 @@ const Debi = () => {
               Visual Design
             </h5>
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
-              For the visual design of the Debi app, I chose blue as the primary color to evoke feelings of harmony and joy while also representing the freshness and healthiness of the products.
+              For the visual design of the Debi app, I chose blue as the primary color to evoke feelings of stability and reliability while also representing the secure and orderly of the product.
             </p>
             <img className='py-4 sm:h-[540px]' src="./assets/Visual.svg" alt="" />
           </div>
