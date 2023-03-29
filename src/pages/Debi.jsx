@@ -164,6 +164,33 @@ const Debi = () => {
           </div>
         </div>
 
+        {/* ---- PHASE 4 PROTOTYPING ---- */}
+        
+        <div className='flex flex-col mt-10 items-center justify-center h-[240px] bg-[#EDF2FB] px-5'>
+            <p className='text-[24px] text-[#072AC8] py-4 text-center font-bold sm:text-[32px]'>
+              PHASE 4 : PROTOTYPING
+            </p>
+        </div>
+        
+        <div className='p-8 max-w-[1240px] m-auto'>
+
+          <div className='flex flex-col py-6'>
+            <h5 className='text-[20px] sm:text-[32px] font-bold'>
+              Visual Design
+            </h5>
+            <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
+              For the visual design of the Debi app, I chose blue as the primary color to evoke feelings of harmony and joy while also representing the freshness and healthiness of the products.
+            </p>
+            <img className='py-4' src="/" alt="" />
+          </div>
+
+          <div className='flex flex-col py-2'>
+            <h4 className='text-[20px] sm:text-[32px] font-bold mt-2'>
+              Hi-fidelity prototypes
+            </h4>
+          </div>
+        </div>
+
 
       </div>
     </div>
