@@ -32,7 +32,7 @@ const Cases = () => {
 
                     <div className='flex-col hover:animate-pulse'p-4>
                         <div className='py-1'>
-                            <Link href='/'><img src="./assets/Upnetcover.svg" alt="" /></Link>
+                            <Link href='https://dribbble.com/shots/21056958-UpNet-One-click-cloud-service'><img src="./assets/Upnetcover.svg" alt="" /></Link>
                         </div>
                         
                         <h5 className='text-[24px] font-bold py-[12px]'>Upnet - UI Design Challenge</h5>
@@ -43,10 +43,10 @@ const Cases = () => {
                 <div className='flex flex-nowrap gap-4 mt-4'>
                     <div className='flex-col hover:animate-pulse'p-4>
                         <div className='py-1'>
-                            <Link href='/'><img src="./assets/Docsaabcover.svg" alt="" /></Link>
+                            <Link href='https://dribbble.com/shots/21057020-DocSaab-UI'><img src="./assets/Docsaabcover.svg" alt="" /></Link>
                         </div>
                         
-                        <h5 className='text-[24px] font-bold py-[12px]'>Upnet - UI Design Challenge</h5>
+                        <h5 className='text-[24px] font-bold py-[12px]'>DocSaab. - UI Design Challenge</h5>
                     </div>
                 </div>
             </div>
