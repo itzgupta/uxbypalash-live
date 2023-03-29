@@ -9,19 +9,8 @@ const Navbar = () => {
         setNav(!nav)
     };
 
-    const [color, setcolor] = useState(false)
-    const changecolor = () => {
-        if (window.scrollY >=90) {
-      setcolor(true)
-        } else {
-      setcolor(false)
-        }
-    };
-
-    window.addEventListener('scroll', changecolor)
-
   return (
-    <div className={color ? 'navbar-scroll-bg bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300' : 'bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300'}>
+    <div className='bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex h-[94px] justify-between items-center p-4 text-black'>
             <Link href='/'>
                 <h4 className='font-[500] text-[24px]'>uxbypalash</h4>

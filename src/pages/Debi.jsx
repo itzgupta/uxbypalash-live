@@ -5,7 +5,7 @@ import React from 'react'
 const Debi = () => {
   return (
     <div>
-      <div>
+      <div className='border-b-[1px] border-[#D4D4D4]'>
         {/* ---- BANNER ---- */}
             
         <div className='flex flex-col mt-10 items-center justify-center h-[450px] bg-[#EDF2FB] px-5'>
@@ -160,7 +160,7 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               Subsequently, I converted my preliminary sketches into digital wireframes, followed by the creation of Lo-Fi prototypes using XD. I then conducted usability testing with my users.
             </p>
-            <img className='py-4 h-[340px] sm:-h-[380px]' src="./assets/Wireframe.svg" alt="" />
+            <img className='py-4 h-[340px] sm:-screen' src="./assets/Wireframe.svg" alt="" />
           </div>
         </div>
 
@@ -211,7 +211,7 @@ const Debi = () => {
             </p>
           </div>
 
-          <div className='flex flex-col py-2'>
+          <div className='flex flex-col py-2 mb-4'>
             <h4 className='text-[20px] sm:text-[32px] font-bold mt-2'>
               Contemplations
             </h4>
