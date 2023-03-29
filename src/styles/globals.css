@@ -30,3 +30,7 @@ body {
   60% {color: #F7A828;}
   80% {color: #FF0A54;}
 }
+
+.navbar-scroll-bg {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14);
+}

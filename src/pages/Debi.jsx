@@ -145,12 +145,12 @@ const Debi = () => {
 
           <div className='flex flex-col py-6'>
             <h5 className='text-[20px] sm:text-[32px] font-bold'>
-              User Flow - Order journey map
+              User Flow - App journey map
             </h5>
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               Drawing from the insights gathered through research and aligning our objectives with the identified pain points, I have devised the order journey flow, recognizing its significance as a critical operation within the application.
             </p>
-            <img className='py-4' src="/" alt="" />
+            <img className='py-4 h-[340px] sm:h-[420px]' src="./assets/Userflow.svg" alt="" />
           </div>
 
           <div className='flex flex-col py-2'>
@@ -160,7 +160,7 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               Subsequently, I converted my preliminary sketches into digital wireframes, followed by the creation of Lo-Fi prototypes using XD. I then conducted usability testing with my users.
             </p>
-            <img className='py-4' src="/" alt="" />
+            <img className='py-4 h-[340px] sm:-h-[380px]' src="./assets/Wireframe.svg" alt="" />
           </div>
         </div>
 
@@ -181,13 +181,14 @@ const Debi = () => {
             <p className='text-[18px] sm:text-[20px] text-[#5F5F5F] font-medium py-2'>
               For the visual design of the Debi app, I chose blue as the primary color to evoke feelings of harmony and joy while also representing the freshness and healthiness of the products.
             </p>
-            <img className='py-4' src="/" alt="" />
+            <img className='py-4 sm:h-[540px]' src="./assets/Visual.svg" alt="" />
           </div>
 
           <div className='flex flex-col py-2'>
             <h4 className='text-[20px] sm:text-[32px] font-bold mt-2'>
               Hi-fidelity prototypes
             </h4>
+            <iframe className='rounded-lg h-[380px] sm:h-[540px] pt-4' width="auto" src="https://www.youtube.com/embed/kNflnwMmF2M" title="Debi - A Web3 online payment system" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
 
