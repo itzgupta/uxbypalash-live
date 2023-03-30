@@ -1,16 +1,28 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [color, setboxshadow] = useState('none');
 
     const handleNav = () => {
         setNav(!nav)
     };
 
+    useEffect(()=> {
+        const changebackground = () => {
+            if(window.scrollY >= 90) {
+                setboxshadow('0px 6px 10px rgba(0, 0, 0, 0.14)')
+            } else {
+                setboxshadow('none')
+            }
+        };
+        window.addEventListener('scroll', changebackground);
+    }, []);
+
   return (
-    <div className='bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300'>
+    <div style={{boxShadow: `${color}` }} className='bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex h-[94px] justify-between items-center p-4 text-black'>
             <Link href='/'>
                 <h4 className='font-[500] text-[24px]'>uxbypalash</h4>
