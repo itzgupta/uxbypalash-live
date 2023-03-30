@@ -4,7 +4,7 @@ import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-    const [color, setboxshadow] = useState('none');
+    const [shadow, setboxshadow] = useState('none');
 
     const handleNav = () => {
         setNav(!nav)
@@ -22,7 +22,7 @@ const Navbar = () => {
     }, []);
 
   return (
-    <div style={{boxShadow: `${color}` }} className='bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300'>
+    <div style={{boxShadow: `${shadow}` }} className='bg-white fixed left-0 top-0 z-10 w-full ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex h-[94px] justify-between items-center p-4 text-black'>
             <Link href='/'>
                 <h4 className='font-[500] text-[24px]'>uxbypalash</h4>
