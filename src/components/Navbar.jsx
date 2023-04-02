@@ -53,13 +53,13 @@ const Navbar = () => {
             >
                 <ul className='font-[500]'>
                     <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
-                        <Link href='/#work'>work</Link>
+                        <Link onClick={handleNav} href='/#work'>work</Link>
                     </li >
                     <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
-                        <Link href='/#contact'>contact</Link>
+                        <Link onClick={handleNav} href='/#contact'>contact</Link>
                     </li>
                     <li className='p-4 text-4xl text-[#FF477E] hover:text-[#D71F56] text-medium'>
-                        <Link href='https://dribbble.com/uxbypalash'><span>dribbble</span></Link>
+                        <Link onClick={handleNav} href='https://dribbble.com/uxbypalash'><span>dribbble</span></Link>
                     </li>
                 </ul>
             </div>
