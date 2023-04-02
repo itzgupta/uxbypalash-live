@@ -53,7 +53,7 @@ const Navbar = () => {
             >
                 <ul className='font-[500]'>
                     <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
-                        <Link onClick={handleNav} href='/#work'>work</Link>
+                        <Link onClick={handleNav} href='/'>work</Link>
                     </li >
                     <li className='p-4 text-4xl text-[#828282] hover:text-[#6E44FF] text-medium'>
                         <Link onClick={handleNav} href='/#contact'>contact</Link>
